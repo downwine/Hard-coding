@@ -6,12 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+    <!--Описание параметров числа-->
     <TextView
         android:id="@+id/mycnt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="0"
         android:textSize="70dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,6 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.384" />
 
+    <!--Описание линии, в которую входят нижеобъявленные элементы-->
     <LinearLayout
         android:layout_width="407dp"
         android:layout_height="178dp"
@@ -31,6 +31,7 @@
         app:layout_editor_absoluteX="73dp"
         app:layout_editor_absoluteY="176dp">
 
+        <!--Описание параметров левой кнопки с картинкой-->
         <ImageButton
             android:id="@+id/img_Button_left"
             android:layout_width="78dp"
@@ -43,6 +44,7 @@
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="491dp" />
 
+        <!--Описание параметров кнопки Сбросить-->
         <Button
             android:id="@+id/resetbtn"
             android:layout_width="wrap_content"
@@ -54,6 +56,7 @@
             tools:layout_editor_absoluteX="148dp"
             tools:layout_editor_absoluteY="407dp" />
 
+        <!--Описание параметров правой кнопки с картинкой-->
         <ImageButton
             android:id="@+id/img_Button_right"
             android:layout_width="71dp"
